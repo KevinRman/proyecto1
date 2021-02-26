@@ -1,2 +1,2 @@
-# proyecto1
- Mi Proyecto en github
+# curso-javascript
+Curso donde enseñamos Javascript desde cero
