@@ -1,0 +1,23 @@
+let numeros = [];
+
+for(let i = 0; i<10; i++){
+    numeros[i] = parseInt(Math.random() * (15 - 1) + 1);
+}
+
+console.log(numeros);
+
+for(let i = 0; i < 10; i++){
+    let numerito = numeros[i];
+    let cant_divisores = 0;
+
+    for(let j=1; j<=numerito; j++){
+        if(numerito%j == 0){
+            cant_divisores = cant_divisores+1;
+        }
+    }
+
+    if(cant_divisores == 2){
+        console.log(numerito+" es primo");
+    }
+
+}
